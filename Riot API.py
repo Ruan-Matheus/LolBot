@@ -1,26 +1,44 @@
-# A simple program to view your League of legends status
-
 import requests
-import json
+from pprint import pprint
 
-name = input("Your game name: ")
+"Ver o elo da rapaziada com um comando com um bot de discord"
 
-# Get a summoner by game name -> /lol/summoner/v4/summoners/by-name/{summonerName}
-summoner = requests.get(f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{name}?api_key=RGAPI-600e4868-1c0f-4409-84a8-bb43d18f7f5c')
-response_code = summoner.status_code
-summoner_json = summoner.json()
+key = 'RGAPI-201ddfd1-407c-43f3-b6e8-8a8eac8a81ee'
 
-summoner_name = summoner_json["name"]
-summoner_id = summoner_json["id"]
-summoner_puuid = summoner_json["puuid"]
-summoner_level = summoner_json["summonerLevel"]
+players_names = ["Ruansitos", "Dutdudu", "Ferballen"]
+player_status = {}
+players_status = []
 
-print(f"Response code: {response_code}")
-print(f"Your summoner name: {summoner_name}")
-print(f"Your summoner id: {summoner_id}")
-print(f"Your summoner puuid: {summoner_puuid}")
-print(f"Your summoner level: {summoner_level}")
+for player_name in players_names:
+    try:
+        summomer_request = requests.get(f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={key}')
+        if not summomer_request.status_code // 100 == 2:
+            print(f"Error: Unexpected response {summomer_request}")
+        
+        summoner_json = summomer_request.json()
+        summoner_name = summoner_json['name']
+        summoner_id = summoner_json['id']
+        summoner_account_id = summoner_json['accountId']
+        summmoner_puuid = summoner_json['puuid']
 
-
-# Get a champion mastery by puuid
-mastery = requests.get(f"/lol/champion-mastery/v4/champion-masteries/by-puuid/{summoner_puuid}?api_key={api_key}")
+        pprint(summoner_json, indent= 4)
+        
+    except requests.exceptions.RequestException as e:
+        # A serious problem happened, like an SSLError or InvalidURL
+         print("Error: {}".format(e))
+         
+    try:
+        # Request url for the entries of a summoner --> https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_account_id}?api_key={api_key}
+        entries_request = requests.get(f'https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_xclsid}?api_key={key}')
+        if not entries_request.status_code // 100 == 2:
+            print(f"Error: Unexpected response {entries_request}")
+            
+        entries_json = entries_request.json()
+        player_status['Name'] = summoner_name
+        player_status['Tier'] = entries_json['tier']
+        player_status['Rank'] = entries_json['rank']
+        
+    except:
+        pass
+    
+    print(player_status)
