@@ -3,7 +3,7 @@ from pprint import pprint
 
 "Ver o elo da rapaziada com um comando com um bot de discord"
 
-key = 'RGAPI-201ddfd1-407c-43f3-b6e8-8a8eac8a81ee'
+key = 'RGAPI-acd6e3fa-c899-455e-80aa-27d22b0d5db3'
 
 players_names = ["Ruansitos", "Dutdudu", "Ferballen"]
 player_status = {}
@@ -29,16 +29,29 @@ for player_name in players_names:
          
     try:
         # Request url for the entries of a summoner --> https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_account_id}?api_key={api_key}
-        entries_request = requests.get(f'https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_xclsid}?api_key={key}')
+        entries_request = requests.get(f'https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}?api_key={key}')
         if not entries_request.status_code // 100 == 2:
             print(f"Error: Unexpected response {entries_request}")
-            
+
         entries_json = entries_request.json()
-        player_status['Name'] = summoner_name
-        player_status['Tier'] = entries_json['tier']
-        player_status['Rank'] = entries_json['rank']
+        pprint(entries_json, indent= 4)
+            
+        n_solo = 1 if entries_json and entries_json[1]['queueType'] == 'RANKED_SOLO_5x5' else 0
         
-    except:
-        pass
+        player_status = {
+            'Name': summoner_name,
+            'Tier': entries_json[n_solo]['tier'] if entries_json else 'Unranked',
+            'Rank': entries_json[n_solo]['rank'] if entries_json else 'Unranked',
+            'Wins': entries_json[n_solo]['wins'] if entries_json else 0,
+            'Losses': entries_json[n_solo]['losses'] if entries_json else 0,
+            'Win Rate': entries_json[n_solo]['wins'] / (entries_json[n_solo]['wins'] + entries_json[n_solo]['losses']) * 100 if entries_json else 0
+        }
+
+              
+    except Exception as f:
+        print(f"Erro {f}")
     
-    print(player_status)
+    players_status.append(player_status.copy())
+    
+for p in players_status:
+    pprint(p, sort_dicts = False, compact = True)
