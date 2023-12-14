@@ -5,7 +5,7 @@ from pprint import pprint
 
 "Ver o elo da rapaziada com um comando com um bot de discord"
 
-api_key = 'RGAPI-acd6e3fa-c899-455e-80aa-27d22b0d5db3'
+api_key = 'key'
 
 players_names = ["Ruansitos", "Dutdudu"]
 player_status = {}
@@ -58,7 +58,7 @@ for player_name in players_names:
 #for p in players_status:
 #    pprint(p, sort_dicts = False, compact = True)
 
-id_do_servidor =  1183402576172044309
+id_do_servidor =  'id'
 
 class client(discord.Client):
     def __init__(self):
@@ -92,8 +92,4 @@ async def slash4(interaction: discord.Interaction):
     await interaction.response.send_message(f"{players_status[1]['Tier']} {players_status[1]['Rank']}", ephemeral = False) 
 
 
-
-
-  
-
-aclient.run('MTE4NDYyMDY1NzM4NDg5MDM4OA.G0VJ6W.hgQda5Os3qEQTLolD_sbiQIae8nVue8JmrJji8')
+aclient.run('token')
