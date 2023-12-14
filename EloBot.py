@@ -4,9 +4,9 @@ import requests
 from pprint import pprint
 "Ver o elo da rapaziada com um comando com um bot de discord"
 
-api_key = 'RGAPI-acd6e3fa-c899-455e-80aa-27d22b0d5db3'
-bot_token = 'MTE4NDYyMDY1NzM4NDg5MDM4OA.GRfnJl.z6WVmMfhQ5RipxOpSbKOun9DXWppWtp0kqFQAY'
-server_id = 1183402576172044309
+api_key = 'api_key'
+bot_token = 'token'
+server_id = 'id'
 
 summoner_name = ""  # Initializing the summoner_name variable
 players_names = ["ruansitos", "dutdudu", "ferballen"]
