@@ -1,3 +1,4 @@
 Make the commands functions of discord, accept arguments (create only one funcion --> elo 'name').
 Make the bot update the api data in the call.
+Correct the discord message when unranked
 Optimize the code.
