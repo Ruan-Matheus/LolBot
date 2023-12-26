@@ -2,6 +2,7 @@
 (x) Make the bot update the api data in the call.
 ( ) Correct the discord message when unranked
 (x) Add counters of wins and losses, and Win rate
+( ) Add flex status too
 ( ) Add most played champs, mastery
 ( ) Add some history
 ( ) Add leadebords?
