@@ -1,128 +1,134 @@
 import discord
 from discord import app_commands
+from discord.ext import commands
+import logging
 import requests
 from pprint import pprint
-"Ver o elo da rapaziada com um comando com um bot de discord"
+import os
 
-api_key = 'api_key'
-bot_token = 'token'
-server_id = 'id'
+api_key = os.environ['api_key']
+bot_token = os.environ['bot_token']
+server_id = os.environ['server_id']
 
-summoner_name = ""  # Initializing the summoner_name variable
-players_names = ["ruansitos", "dutdudu", "ferballen"]
+handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='a')
+
 player_status = {}
-players_status = []
-
-for player_name in players_names:
-  try:
-    summomer_request = requests.get(
-        f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
-    )
-    if summomer_request.status_code // 100 != 2:
-      print(f"Error: Unexpected response {summomer_request}")
-
-    summoner_json = summomer_request.json()
-    summoner_name = summoner_json['name']
-    summoner_id = summoner_json['id']
-    summoner_account_id = summoner_json['accountId']
-    summmoner_puuid = summoner_json['puuid']
-
-#         pprint(summoner_json, indent= 4)
-
-  except requests.exceptions.RequestException as e:
-    # A serious problem happened, like an SSLError or InvalidURL
-    print("Error: {}".format(e))
-
-  try:
-    # Request url for the entries of a summoner --> https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_account_id}?api_key={api_key}
-    entries_request = requests.get(
-        f'https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}?api_key={api_key}'
-    )
-    if entries_request.status_code // 100 != 2:
-
-      print(f"Error: Unexpected response {entries_request}")
-
-    entries_json = entries_request.json()
-    #         pprint(entries_json, indent= 4)
-
-    n_solo = 1 if len(entries_json) > 1 and entries_json[1][
-        'queueType'] == 'RANKED_SOLO_5x5' else 0
-
-    player_status = {
-        'Name':
-        summoner_name,
-
-        'Tier':
-        entries_json[n_solo]['tier'] if entries_json else 'Unranked',
-        'Rank':
-        entries_json[n_solo]['rank'] if entries_json else 'Unranked',
-        'Wins':
-        entries_json[n_solo]['wins'] if entries_json else 0,
-        'Losses':
-        entries_json[n_solo]['losses'] if entries_json else 0,
-        'Win Rate':
-        entries_json[n_solo]['wins'] /
-        (entries_json[n_solo]['wins'] + entries_json[n_solo]['losses']) *
-        100 if entries_json else 0
-    }
-
-  except Exception as f:
-    print(f"Erro {f}")
-
-  players_status.append(player_status.copy())
-
-#for p in players_status:
-#    pprint(p, sort_dicts = False, compact = True)
-
-id_do_servidor = 1183402576172044309
 
 
-class client(discord.Client):
+def get_player_data(summoner_name, api_key):
+ try:
+  summomer_request = requests.get(
+      f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{summoner_name}?api_key={api_key}'
+  )
 
-  def __init__(self):
-    super().__init__(intents=discord.Intents.default())
-    self.synced = False  #Nós usamos isso para o bot não sincronizar os comandos mais de uma vez
+  if summomer_request.status_code // 100 != 2:
+   print(f"Error: Unexpected response {summomer_request}")
 
-  async def on_ready(self):
-    await self.wait_until_ready()
-    if not self.synced:  #Checar se os comandos slash foram sincronizados
-      await tree.sync(
-          guild=discord.Object(id=id_do_servidor)
-      )  # Você também pode deixar o id do servidor em branco para aplicar em todos servidores, mas isso fará com que demore de 1~24 horas para funcionar.
-      self.synced = True
-    print(f"Entramos como {self.user}.")
+  summoner_json = summomer_request.json()
+  summoner_name = summoner_json['name']
+  summoner_id = summoner_json['id']
+  summoner_account_id = summoner_json['accountId']
+  summmoner_puuid = summoner_json['puuid']
+
+  #pprint(summoner_json, indent= 4)
+
+ except requests.exceptions.RequestException as e:
+  # A serious problem happened, like an SSLError or InvalidURL
+  print("Error: {}".format(e))
+
+ try:
+  # Request url for the entries of a summoner --> https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_account_id}?api_key={api_key}
+  entries_request = requests.get(
+      f'https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/{summoner_id}?api_key={api_key}'
+  )
+  if entries_request.status_code // 100 != 2:
+
+   print(f"Error: Unexpected response {entries_request}")
+
+  entries_json = entries_request.json()
+  pprint(entries_json, indent=4)
+
+  for i in range(len(entries_json)):
+   if entries_json[i]['queueType'] == 'RANKED_SOLO_5x5':
+    n_solo = i
+    break
+
+  player_status = {
+      'Name':
+      summoner_name,
+      'Tier':
+      entries_json[n_solo]['tier'] if entries_json else 'Unranked',
+      'Rank':
+      entries_json[n_solo]['rank'] if entries_json else 'Unranked',
+      'LP':
+      entries_json[n_solo]['leaguePoints'] if entries_json else 0,
+      'Wins':
+      entries_json[n_solo]['wins'] if entries_json else 0,
+      'Losses':
+      entries_json[n_solo]['losses'] if entries_json else 0,
+      'Win Rate': round(
+      entries_json[n_solo]['wins'] /
+      (entries_json[n_solo]['wins'] + entries_json[n_solo]['losses']) *
+      100, 2) if entries_json else 0
+  }
+
+ except Exception as f:
+  print(f"Erro {f}")
+
+ return player_status
 
 
-aclient = client()
-tree = app_commands.CommandTree(aclient)
+def format_data(player_data):
+ if player_data:
+  return f"{player_data['Name']} - {player_data['Tier']} - {player_data['Rank']}\n - Wins: {player_data['Wins']}\n- Losses: {player_data['Losses']}\n- Win Rate: {player_data['Win Rate']}%"
 
 
-@tree.command(guild=discord.Object(id=id_do_servidor),
-              name='teste',
-              description='Testando')  #Comando específico para seu servidor
-async def slash2(interaction: discord.Interaction):
-  await interaction.response.send_message(f"Estou funcionando!",
-                                          ephemeral=True)
+intents = discord.Intents.default()
+intents.message_content = True
+
+# Prefixo para os comandos do bot
+bot_prefix = "!"
+
+# Criação de um objeto bot com um prefixo
+bot = commands.Bot(intents=intents, command_prefix=bot_prefix)
 
 
-@tree.command(guild=discord.Object(id=id_do_servidor),
-              name='ruansitos',
-              description='Mosta o elo de ruansitos'
-              )  #Comando específico para seu servidor
-async def slash3(interaction: discord.Interaction):
-  await interaction.response.send_message(
-      f"{players_status[0]['Tier']} {players_status[0]['Rank']}",
-      ephemeral=False)
+# Evento chamado quando o bot está pronto
+@bot.event
+async def on_ready():
+ print(f'Logged in as {bot.user.name}')
 
 
-@tree.command(guild=discord.Object(id=id_do_servidor),
-              name='dutdudu',
-              description='Mosta o elo de dutdudu'
-              )  #Comando específico para seu servidor
-async def slash4(interaction: discord.Interaction):
-  await interaction.response.send_message(
-      f"{players_status[1]['Tier']} {players_status[1]['Rank']}",
-      ephemeral=False)
+@bot.command(name='elo', help='Shows the elo of the player')
+async def elo(ctx, player_name: str):
+ print(player_name)
+ player_data = get_player_data(player_name, api_key)
+ formatted_data = format_data(player_data)
+ await ctx.send(f'{formatted_data}!')
 
 
-aclient.run(bot_token)
+# Comando simples: !hello
+@bot.command(name='hello', help='Responds with a hello message.')
+async def hello(ctx):
+ await ctx.send(f'Hello, {ctx.author.mention}!')
+
+
+# Comando com argumento: !greet <name>
+@bot.command(name='greet', help='Greets the specified user.')
+async def greet(ctx, name: str):
+ await ctx.send(f'Hello, {name}!')
+
+
+# Comando personalizado: !custom
+@bot.command(name='custom', help='A custom command.')
+async def custom(ctx):
+ await ctx.send('This is a custom command!')
+
+'''
+@bot.commnad(name='help', help='Shows the help message.')
+async def help(ctx):
+ await ctx.send'''
+
+    
+# Inicialização do bot
+bot.run(bot_token, log_handler=handler)
