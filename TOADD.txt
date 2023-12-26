@@ -1,5 +1,8 @@
-Make the commands functions of discord, accept arguments (create only one funcion --> elo 'name').
-Make the bot update the api data in the call.
-Correct the discord message when unranked
-Add counters of wins and losses, and Win rate, maybe most played champs?
-Optimize the code.
+(x) Make the commands functions of discord, accept arguments (create only one funcion --> elo 'name').
+(x) Make the bot update the api data in the call.
+( ) Correct the discord message when unranked
+(x) Add counters of wins and losses, and Win rate
+( ) Add most played champs, mastery
+( ) Add some history
+( ) Add leadebords?
+( ) Optimize the code.
