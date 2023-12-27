@@ -1,0 +1,1061 @@
+[30;1m2023-12-19 19:43:06[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-19 19:43:07[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 3d0c66735cac89e7d2f721423ab3f41a).
+[30;1m2023-12-19 19:43:31[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-19 19:43:31[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 2f21009c28d4ec668bd2359dbdbf0227).
+[30;1m2023-12-20 15:48:19[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-20 15:48:21[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f0ac17c911f8c15ca71187107ceeb0a4).
+[30;1m2023-12-21 00:16:36[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 00:16:37[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 8e3342451a5e6448b1d367ef9a8c7549).
+[30;1m2023-12-21 00:16:48[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 00:16:48[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: b656eb2f1a477754041062ea38026669).
+[30;1m2023-12-21 00:17:40[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 00:17:41[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: d1556b3cce9856fa7e7d831ffabc4508).
+[30;1m2023-12-21 00:28:55[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 00:28:56[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 86aa5ae3c2fae3b62795c041644c044d).
+[30;1m2023-12-21 01:08:04[0m [33;1mWARNING [0m [35mdiscord.ext.commands.bot[0m Privileged message content intent is missing, commands may not work as expected.
+[30;1m2023-12-21 01:08:05[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 01:08:05[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 01d51dbf0d42471546ae144b428afbc1).
+[30;1m2023-12-21 01:11:30[0m [33;1mWARNING [0m [35mdiscord.ext.commands.bot[0m Privileged message content intent is missing, commands may not work as expected.
+[30;1m2023-12-21 01:11:30[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 01:11:31[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 33eacf21a9ed867e0752425b89b3d17b).
+[30;1m2023-12-21 01:14:15[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 01:14:15[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: c1659a6091dcfde78860f52cdd9dca76).
+[30;1m2023-12-21 01:17:09[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 01:17:10[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 093e43a767d2158c0a7946415b4def9e).
+[30;1m2023-12-21 01:17:18[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:17:20[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:17:27[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:17:34[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:19:32[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:19:34[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 102, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-21 01:20:02[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-21 01:20:03[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 6793f93931d99a0f165806f3feac0424).
+[30;1m2023-12-21 01:56:05[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has successfully RESUMED session 6793f93931d99a0f165806f3feac0424.
+[30;1m2023-12-25 20:00:59[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:01:00[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 4d41bb56203d41486dfee6d8b9bcf3c9).
+[30;1m2023-12-25 20:02:34[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:02:35[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: cab33913762d480c71cde128dab59237).
+[30;1m2023-12-25 20:04:51[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:04:51[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: c02791914f000403299b007e83c977ba).
+[30;1m2023-12-25 20:04:55[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 101, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-25 20:04:57[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 101, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-25 20:05:01[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 101, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-25 20:05:05[0m [31mERROR   [0m [35mdiscord.client[0m Ignoring exception in on_message
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/teste.py", line 101, in on_message
+    if message.content.startswithc('!elo'):
+AttributeError: 'str' object has no attribute 'startswithc'[0m
+[30;1m2023-12-25 20:05:56[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:05:56[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 28685e918dc2d35162d72f8f01c4b11a).
+[30;1m2023-12-25 20:06:07[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command None
+[31mdiscord.ext.commands.errors.CommandNotFound: Command "elo" is not found[0m
+[30;1m2023-12-25 20:06:11[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command greet
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: name is a required argument that is missing.[0m
+[30;1m2023-12-25 20:12:07[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:12:08[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 60df5c3214c271b76cfdd66481d1ddf2).
+[30;1m2023-12-25 20:42:29[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:42:30[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 4e674ef217675c52ed5aa5180aa12dc2).
+[30;1m2023-12-25 20:43:14[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command None
+[31mdiscord.ext.commands.errors.CommandNotFound: Command "helllo" is not found[0m
+[30;1m2023-12-25 20:43:39[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:43:40[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 283e345b77a55c0788c0306dd9caf3c5).
+[30;1m2023-12-25 20:44:12[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:44:13[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 2a865cb7b857732fc5a39f5fd184da1e).
+[30;1m2023-12-25 20:48:53[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:48:53[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: da0219e6dcdd1b2d7ab735353d15cf98).
+[30;1m2023-12-25 20:49:37[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:49:37[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: c17cd66da03e89c10ff2799e7ed5ed59).
+[30;1m2023-12-25 20:49:42[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 27, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:49:49[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 27, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:49:54[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 27, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:50:09[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 27, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:52:00[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:52:01[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: c4f73321faaf559ff95ac4b272b3f0c8).
+[30;1m2023-12-25 20:52:18[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 102, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:52:47[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:52:48[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 82e46fa7cd3bcb71b14e358c2c2e0a72).
+[30;1m2023-12-25 20:52:52[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:53:02[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:53:44[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:53:45[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: bb5f810e3ee53924fe5d1524a0fe7e05).
+[30;1m2023-12-25 20:53:49[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:53:53[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:55:18[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:55:28[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: player_name is a required argument that is missing.[0m
+[30;1m2023-12-25 20:58:16[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command greet
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: name is a required argument that is missing.[0m
+[30;1m2023-12-25 20:58:42[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player_name, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 20:59:49[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 20:59:50[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 7d1807ef29ddbbbdc8e759a7793178b0).
+[30;1m2023-12-25 20:59:54[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 103, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 21:00:34[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:00:34[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: e08c9e05c3b96cd16cce2371b1f29352).
+[30;1m2023-12-25 21:00:38[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 104, in elo
+    await ctx.send(f'Elo of {player_name}: {get_player_data(player, api_key)}!')
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 24, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 21:03:32[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:03:33[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 2f8fe3dc7706ef84e1411cd4b8699b50).
+[30;1m2023-12-25 21:03:45[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 101, in elo
+    player_data = get_player_data(player, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 21, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 21:06:36[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:06:38[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 87c1053321b6399d78e4f7a43a7d88ed).
+[30;1m2023-12-25 21:07:19[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:07:19[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f6a103174b364986bdaac6ab13e4654e).
+[30;1m2023-12-25 21:08:40[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 100, in elo
+    player_data = get_player_data(player, api_key)
+NameError: name 'player' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player' is not defined[0m
+[30;1m2023-12-25 21:09:15[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:09:15[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 65f56fab46eacf27b54f4ce9d13fd178).
+[30;1m2023-12-25 21:09:46[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:09:47[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 26afc068cac6a5ec964b724f0eaa3f67).
+[30;1m2023-12-25 21:10:17[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:10:18[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: bb6f1135db02fd4bb2f464917ae720f3).
+[30;1m2023-12-25 21:10:34[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 100, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 21, in get_player_data
+    f'https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={api_key}'
+NameError: name 'player_name' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'player_name' is not defined[0m
+[30;1m2023-12-25 21:11:59[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:12:00[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: fc00d31bed159d7b153c6b85d425a530).
+[30;1m2023-12-25 21:13:23[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:13:24[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 9f2b488431e372aecefc6859f87d8605).
+[30;1m2023-12-25 21:13:38[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 100, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 78, in get_player_data
+    return player_status
+UnboundLocalError: local variable 'player_status' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: local variable 'player_status' referenced before assignment[0m
+[30;1m2023-12-25 21:16:57[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:16:58[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: a86358231e7258bbef00974b3d570c4b).
+[30;1m2023-12-25 21:17:18[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:17:18[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 4694b90ef7b04339abd184666b0d3726).
+[30;1m2023-12-25 21:17:58[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:17:59[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 41e1cf67aae483204f67773fcf8265d2).
+[30;1m2023-12-25 21:18:01[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 106, in elo
+    formatted_data = format_data(player_data)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 83, in format_data
+    return f"{player_data['Name']} - {player_data['Tier']} - {player_data['rank']}"
+KeyError: 'rank'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'rank'[0m
+[30;1m2023-12-25 21:18:09[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 106, in elo
+    formatted_data = format_data(player_data)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 83, in format_data
+    return f"{player_data['Name']} - {player_data['Tier']} - {player_data['rank']}"
+KeyError: 'rank'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'rank'[0m
+[30;1m2023-12-25 21:18:14[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-25 21:18:18[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command None
+[31mdiscord.ext.commands.errors.CommandNotFound: Command "elos" is not found[0m
+[30;1m2023-12-25 21:18:23[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:18:24[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 14a50a200b8996cfa68688a654e9ec28).
+[30;1m2023-12-25 21:18:31[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 106, in elo
+    formatted_data = format_data(player_data)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 83, in format_data
+    return f"{player_data['Name']} - {player_data['Tier']} - {player_data['rank']}"
+KeyError: 'rank'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'rank'[0m
+[30;1m2023-12-25 21:18:52[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:18:53[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: a04fd42b9bb61d1129a6aa3c1396d5e2).
+[30;1m2023-12-25 21:20:00[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:20:01[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: ef12b476bf123099db1e3ba47bb4290a).
+[30;1m2023-12-25 21:20:19[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-25 21:20:26[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command None
+[31mdiscord.ext.commands.errors.CommandNotFound: Command "elodutdudu" is not found[0m
+[30;1m2023-12-25 21:21:38[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:21:39[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: dfe42fd10d0e40893c9bba781a5728c4).
+[30;1m2023-12-25 21:21:57[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:21:58[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: d978180b066ef64f87a1490d99100c9e).
+[30;1m2023-12-25 21:22:21[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:22:22[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f1bb7cfcbcd6110b6ece0b900d20c467).
+[30;1m2023-12-25 21:28:23[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:28:24[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 056573bab9a786c78057e26170cc2b6d).
+[30;1m2023-12-25 21:29:56[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:29:57[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 8b971c4d5c5f03ad09e0f6ea2bdb860f).
+[30;1m2023-12-25 21:30:40[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:30:41[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 17a21e5ae8a0afb37992dcbff898d65a).
+[30;1m2023-12-25 21:32:04[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-25 21:32:04[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 5ff311ee1449c2130b20beeb4f31748b).
+[30;1m2023-12-25 21:45:54[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 78, in get_player_data
+    return player_status
+UnboundLocalError: local variable 'player_status' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: local variable 'player_status' referenced before assignment[0m
+[30;1m2023-12-25 21:46:29[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-25 23:22:51[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command None
+[31mdiscord.ext.commands.errors.CommandNotFound: Command "ruansitoss" is not found[0m
+[30;1m2023-12-25 23:23:07[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 78, in get_player_data
+    return player_status
+UnboundLocalError: local variable 'player_status' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: local variable 'player_status' referenced before assignment[0m
+[30;1m2023-12-26 00:45:53[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 00:45:55[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f6581a6aa5f2a08aad171efc8e667eda).
+[30;1m2023-12-26 01:10:33[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 01:10:34[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: d75a8456e94a30e5413923c0a3abde02).
+[30;1m2023-12-26 01:32:42[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has successfully RESUMED session d75a8456e94a30e5413923c0a3abde02.
+[30;1m2023-12-26 02:05:09[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-26 02:06:10[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:06:11[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 453577b8bdc0173c003a508378252f15).
+[30;1m2023-12-26 02:07:01[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:07:02[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 3c51dc879cdf78e164a8f00a83c75c5b).
+[30;1m2023-12-26 02:13:01[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:13:01[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 501ec98401dfbbc13ec92e7b8809a337).
+[30;1m2023-12-26 02:27:05[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:27:06[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 6f818802c53b74be5406261bad5a2b57).
+[30;1m2023-12-26 02:27:49[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:27:49[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: ceef5e5f8d72f9ab85e5e28687467f75).
+[30;1m2023-12-26 02:28:04[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:28:05[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 8ac3e47df30ccb5374d1251abfd034d0).
+[30;1m2023-12-26 02:32:36[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 02:32:37[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f59a9f34d10a203555e9a09b823e37c0).
+[30;1m2023-12-26 02:32:51[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-26 09:58:31[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 09:58:33[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: fe97cc5559b04faea816a6d81a138ecf).
+[30;1m2023-12-26 10:24:35[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 10:24:35[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 60b4c7c9d91ec5aca33ead20190bef45).
+[30;1m2023-12-26 10:57:45[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 10:57:46[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 00dd4bff19f9e79ba1af6ed4a6c22c7b).
+[30;1m2023-12-26 10:59:08[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 10:59:09[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 47e41b03deead307244365fd23242739).
+[30;1m2023-12-26 11:08:21[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 11:08:22[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 9728a5b8b3dd60bdc02ac4e838167952).
+[30;1m2023-12-26 11:33:20[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 11:33:21[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 3677460faa27d4795ce7b367bb2428ae).
+[30;1m2023-12-26 11:33:24[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 105, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 78, in get_player_data
+    return player_status
+UnboundLocalError: local variable 'player_status' referenced before assignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: local variable 'player_status' referenced before assignment[0m
+[30;1m2023-12-26 12:48:54[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 12:48:55[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: cfaa4d9252f5674cf7be435f495e5508).
+[30;1m2023-12-26 12:50:24[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 12:50:25[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 6b9f902c1c91c6f754b6bbfd4c9f85da).
+[30;1m2023-12-26 13:32:46[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:32:47[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: d47dd7730646baa07d8475e14f33feee).
+[30;1m2023-12-26 13:36:15[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:36:16[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 79d49d9e4deb648f252ebf5dcce7666f).
+[30;1m2023-12-26 13:37:01[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:37:01[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 810e6658c783df06ea88db17bc0712de).
+[30;1m2023-12-26 13:38:06[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:38:07[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: aa1d80e0db7a16d6db34c4840bcd3a1b).
+[30;1m2023-12-26 13:38:24[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:38:25[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: ddfb424151f4e4af4d3008713ae13a06).
+[30;1m2023-12-26 13:38:48[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 13:38:49[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f5e6c9d58c27ca98f7e6ca440efdf31a).
+[30;1m2023-12-26 15:01:37[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 15:01:38[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: bebaf01c30a1b0daebd0569ebbfa72c9).
+[30;1m2023-12-26 15:01:42[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-26 15:01:42[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 0e6ea9a4f3478b6a9a419f149bb59436).
+[30;1m2023-12-27 11:10:43[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 11:10:44[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 7620c34cf8393e970c8c1c2afaa925f8).
+[30;1m2023-12-27 11:11:03[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 108, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 30, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-27 11:11:32[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 108, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 30, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-27 11:12:29[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 11:12:30[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 1f31ff6513aa8a3b0baf21d9cf1bd356).
+[30;1m2023-12-27 12:32:40[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 12:32:41[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 83f11762e552b7e09eb1d855a80caed0).
+[30;1m2023-12-27 12:34:19[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 12:34:20[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 31237ac02316e01c110d0f03b10072b6).
+[30;1m2023-12-27 12:34:33[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 12:34:33[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 1ad172676e56f53e39ce0043ec993f21).
+[30;1m2023-12-27 13:04:32[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 13:04:33[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 40a7a5af9dff60cd25dbd043b5ef8d0b).
+[30;1m2023-12-27 13:05:14[0m [31mERROR   [0m [35mdiscord.ext.commands.bot[0m Ignoring exception in command elo
+[31mTraceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 108, in elo
+    player_data = get_player_data(player_name, api_key)
+  File "/home/runner/ExcitedThunderousEnterprise/main.py", line 30, in get_player_data
+    summoner_name = summoner_json['name']
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/runner/ExcitedThunderousEnterprise/.pythonlibs/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'[0m
+[30;1m2023-12-27 13:06:10[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2023-12-27 13:06:11[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: b0da08a6ac524f14d83924ac6802249d).
+[2023-12-27 11:36:06] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:36:07] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6cd23548eab6e9fe491d53d95ac55e4f).
+[2023-12-27 11:36:38] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 104, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 28, in get_player_data
+    summoner_name = summoner_json['name']
+                    ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'
+[2023-12-27 11:48:38] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:48:39] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 90dd9f6d61cf30e548dfa89a1256480c).
+[2023-12-27 11:48:48] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 94, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 67, in get_player_data
+    return player_status
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+[2023-12-27 11:49:14] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 94, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 67, in get_player_data
+    return player_status
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+[2023-12-27 11:49:51] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:49:52] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: c3de16e5d167edc09a3e627b467e5b8f).
+[2023-12-27 11:50:00] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 95, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 68, in get_player_data
+    return player_status
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+[2023-12-27 11:53:41] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:53:42] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: c57e95a11d5c422fa1f20646469afa1b).
+[2023-12-27 11:53:55] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 95, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 68, in get_player_data
+    return player_status
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+[2023-12-27 11:54:34] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:54:35] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2132a630f181fd533fef0aabb988d7dc).
+[2023-12-27 11:54:46] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 93, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\ExcitedThunderousEnterprise (1)\main.py", line 66, in get_player_data
+    return player_status
+           ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnboundLocalError: cannot access local variable 'player_status' where it is not associated with a value
+[2023-12-27 11:55:22] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:55:23] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: ef3325941fdc1f3ed0ef471db0b52025).
+[2023-12-27 11:58:18] [INFO    ] discord.client: logging in using static token
+[2023-12-27 11:58:19] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: c1e4baeb46ad0ca29bb8bc075e2b7ba2).
+[2023-12-27 12:09:09] [INFO    ] discord.client: logging in using static token
+[2023-12-27 12:09:10] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: a86cffe441e36d73f79edd67f2b2e6fd).
