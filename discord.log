@@ -1059,3 +1059,34 @@ discord.ext.commands.errors.CommandInvokeError: Command raised an exception: Unb
 [2023-12-27 11:58:19] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: c1e4baeb46ad0ca29bb8bc075e2b7ba2).
 [2023-12-27 12:09:09] [INFO    ] discord.client: logging in using static token
 [2023-12-27 12:09:10] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: a86cffe441e36d73f79edd67f2b2e6fd).
+[2023-12-29 09:14:56] [INFO    ] discord.client: logging in using static token
+[2023-12-29 09:16:02] [INFO    ] discord.client: logging in using static token
+[2023-12-29 09:16:03] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2cd76915a9589b50df5b9cbb488db4a1).
+[2023-12-29 09:16:15] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command elo
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\Rito-Gomes-API-main\main.py", line 92, in elo
+    player_data = get_player_data(player_name, api_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ruan\Desktop\Rito-Gomes-API-main\main.py", line 27, in get_player_data
+    summoner_name = summoner_json['name']
+                    ~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ruan\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 'name'
+[2023-12-29 09:18:19] [INFO    ] discord.client: logging in using static token
+[2023-12-29 09:18:20] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f3945447ddc97250a6c680adab797a75).
+[2023-12-29 12:24:04] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session f3945447ddc97250a6c680adab797a75.
+[2023-12-29 12:46:06] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session f3945447ddc97250a6c680adab797a75.
